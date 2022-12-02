@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ivrogne/static/css/main.23abc11c.css",
-    "main.js": "/ivrogne/static/js/main.02316f31.js",
+    "main.js": "/ivrogne/static/js/main.e1423310.js",
     "static/media/16108_9_1_2_weeks.jpg": "/ivrogne/static/media/16108_9_1_2_weeks.c35ed84df019f577e8cf.jpg",
     "static/media/12071_rum_cooler.jpg": "/ivrogne/static/media/12071_rum_cooler.edde17833f269dff169d.jpg",
     "static/media/16419_avalanche.jpg": "/ivrogne/static/media/16419_avalanche.ac08c05e1937659c700c.jpg",
@@ -579,10 +579,10 @@
     "index.html": "/ivrogne/index.html",
     "static/media/dropdown-arrow.svg": "/ivrogne/static/media/dropdown-arrow.9d82c8181377c1a9528f10efbc39f9cb.svg",
     "main.23abc11c.css.map": "/ivrogne/static/css/main.23abc11c.css.map",
-    "main.02316f31.js.map": "/ivrogne/static/js/main.02316f31.js.map"
+    "main.e1423310.js.map": "/ivrogne/static/js/main.e1423310.js.map"
   },
   "entrypoints": [
     "static/css/main.23abc11c.css",
-    "static/js/main.02316f31.js"
+    "static/js/main.e1423310.js"
   ]
 }
