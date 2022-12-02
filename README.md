@@ -54,3 +54,7 @@ When filtering or sorting, the `drinks` state array is changed according to the 
 When adding to favorites, a state change is required when the user is viewing only the favorites list as those that are unfavorited, should be removed from the screen and thus a rerender is required.
 
 When changing the page, a state change is also required to recalculate the page buttons at the buttons.
+
+## Issues
+
+When selecting both alcoholic and non-alcoholic drinks using the All option, it will exclude non-alcoholic drinks as they do not contain any of the alcohol types and filter will automatically remove them.
