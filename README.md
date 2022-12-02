@@ -1,7 +1,7 @@
 # ivrogne
 
 A website to find cocktail recipes and the necessary ingredients to make your favorite drinks.  
-Visit it [here](https://sombersheep77.github.io/uiux-project-3/)
+Visit it [here](https://sombersheep77.github.io/ivrogne)
 
 ## Inspiration & Goal
 
