@@ -57,4 +57,4 @@ When changing the page, a state change is also required to recalculate the page 
 
 ## Issues
 
-When selecting both alcoholic and non-alcoholic drinks using the All option, it will exclude non-alcoholic drinks as they do not contain any of the alcohol types and filter will automatically remove them.
+When selecting both alcoholic and non-alcoholic drinks using the All option, it will exclude non-alcoholic drinks as they do not contain any of the alcohol types and filter will automatically remove them. This is an issue with the way I created and tagged the ingredient data as it unintentionally made them mutually exclusive.
