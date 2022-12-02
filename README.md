@@ -45,7 +45,7 @@ I maintain 8 different state variables in Main: `ingredientMap, ingredientList, 
 `showFavorites` is a boolean used for filtering only favorited drinks  
 `drinks` is an array of `drink` types and is the array of drinks displayed on the page  
 `curPage` is an 1-indexed int for the current page  
-`range` is an array of page numbers used for pagination  
+`range` is an array of page numbers used for pagination
 
 I use three useEffects within Main to trigger state changes. One when changing sort or filter options, one when adding to favorites, and one when changing the page.
 
@@ -54,7 +54,3 @@ When filtering or sorting, the `drinks` state array is changed according to the 
 When adding to favorites, a state change is required when the user is viewing only the favorites list as those that are unfavorited, should be removed from the screen and thus a rerender is required.
 
 When changing the page, a state change is also required to recalculate the page buttons at the buttons.
-
-## Issues
-
-When selecting both alcoholic and non-alcoholic drinks using the All option, it will exclude non-alcoholic drinks as they do not contain any of the alcohol types and filter will automatically remove them. This is an issue with the way I created and tagged the ingredient data as it unintentionally made them mutually exclusive.

@@ -85,6 +85,12 @@ export default function Main() {
       return temp
     temp = temp.filter((drink) => {
       for (let i of drink.ingredients) {
+        if (
+          alcoholic === 'All' &&
+          (drink.alcoholic === 'Non alcoholic' ||
+            drink.alcoholic === 'Optional alcohol')
+        )
+          return true
         if (ingredientSet.has(i)) return true
       }
       return false
